@@ -169,7 +169,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (jump && !crouch && m_Animator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))
 			{
 				// jump!
-				m_Rigidbody.velocity = new Vector3(m_Rigidbody.velocity.x, m_JumpPower, m_Rigidbody.velocity.z);
+                Vector3 jumpVector = new Vector3(0, m_JumpPower, 0);
+                jumpVector = Vector3.RotateTowards(jumpVector, transform.up, Mathf.PI * 2, 0f);
+				//m_Rigidbody.velocity = new Vector3(m_Rigidbody.velocity.x, m_JumpPower, m_Rigidbody.velocity.z);
+                m_Rigidbody.velocity += jumpVector;
 				m_IsGrounded = false;
 				m_Animator.applyRootMotion = false;
 				m_GroundCheckDistance = 0.1f;
