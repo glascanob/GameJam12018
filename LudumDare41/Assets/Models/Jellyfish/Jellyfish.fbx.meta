@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1fd2e4b6c5803476cbf858ca3fa3aa0e
-timeCreated: 1524349276
+timeCreated: 1524421638
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -111,7 +111,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: JellyTexture
-    second: {fileID: 2800000, guid: 0cbcdb0c8a74b4cefa74c5ea7943832b, type: 3}
+    second: {fileID: 2800000, guid: 629e068f6d70d8b478e4b9e7fb6e8700, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
