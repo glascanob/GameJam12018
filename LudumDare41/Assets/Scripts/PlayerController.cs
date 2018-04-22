@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject castPoint;
     public GameObject planetContainer;
     public AudioClip[] soundFX;
+    public GameObject deathParticle;
 
     Animator anim;
     Rigidbody rb;
