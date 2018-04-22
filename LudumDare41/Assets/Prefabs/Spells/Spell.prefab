@@ -151,7 +151,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.59
+  m_Radius: 0.87
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &135778868182770326
 SphereCollider:
