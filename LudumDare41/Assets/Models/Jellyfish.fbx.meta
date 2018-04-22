@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 1fd2e4b6c5803476cbf858ca3fa3aa0e
+timeCreated: 1524349276
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: head
+    100002: ik_TentaBack
+    100004: ik_TentaFront
+    100006: ik_TentaLeft
+    100008: ik_TentaRight
+    100010: jelly_Fur
+    100012: jelly_Head
+    100014: jelly_TentacleBack
+    100016: jelly_TentacleFront
+    100018: jelly_TentacleLeft
+    100020: jelly_TentacleRight
+    100022: //RootNode
+    100024: locator
+    100026: shades_glasses
+    100028: shades_handle1
+    100030: shades_handle2
+    100032: tenta_BackA
+    100034: tenta_BackB
+    100036: tenta_BackC
+    100038: tenta_BackD
+    100040: tenta_BaseA
+    100042: tenta_BaseB
+    100044: tenta_BaseC
+    100046: tenta_BaseD
+    100048: tenta_FrontA
+    100050: tenta_FrontB
+    100052: tenta_FrontC
+    100054: tenta_FrontD
+    100056: tenta_TipA
+    100058: tenta_TipB
+    100060: tenta_TipC
+    100062: tenta_TipD
+    400000: head
+    400002: ik_TentaBack
+    400004: ik_TentaFront
+    400006: ik_TentaLeft
+    400008: ik_TentaRight
+    400010: jelly_Fur
+    400012: jelly_Head
+    400014: jelly_TentacleBack
+    400016: jelly_TentacleFront
+    400018: jelly_TentacleLeft
+    400020: jelly_TentacleRight
+    400022: //RootNode
+    400024: locator
+    400026: shades_glasses
+    400028: shades_handle1
+    400030: shades_handle2
+    400032: tenta_BackA
+    400034: tenta_BackB
+    400036: tenta_BackC
+    400038: tenta_BackD
+    400040: tenta_BaseA
+    400042: tenta_BaseB
+    400044: tenta_BaseC
+    400046: tenta_BaseD
+    400048: tenta_FrontA
+    400050: tenta_FrontB
+    400052: tenta_FrontC
+    400054: tenta_FrontD
+    400056: tenta_TipA
+    400058: tenta_TipB
+    400060: tenta_TipC
+    400062: tenta_TipD
+    2100000: tex_Jelly
+    2100002: tex_Shades
+    2300000: jelly_Fur
+    2300002: jelly_Head
+    2300004: shades_glasses
+    2300006: shades_handle1
+    2300008: shades_handle2
+    3300000: jelly_Fur
+    3300002: jelly_Head
+    3300004: shades_glasses
+    3300006: shades_handle1
+    3300008: shades_handle2
+    4300000: jelly_Fur
+    4300002: jelly_Head
+    4300004: shades_handle2
+    4300006: shades_glasses
+    4300008: shades_handle1
+    4300010: jelly_TentacleFront
+    4300012: jelly_TentacleLeft
+    4300014: jelly_TentacleBack
+    4300016: jelly_TentacleRight
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: jelly_TentacleBack
+    13700002: jelly_TentacleFront
+    13700004: jelly_TentacleLeft
+    13700006: jelly_TentacleRight
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_Jelly
+    second: {fileID: 2100000, guid: 076b3a9b23e0d4e6296f6fb748227177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_Shades
+    second: {fileID: 2100000, guid: 4782c99dc894149a68669682d39a01c3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: JellyTexture
+    second: {fileID: 2800000, guid: 0cbcdb0c8a74b4cefa74c5ea7943832b, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
