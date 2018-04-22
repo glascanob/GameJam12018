@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 8287fe60e3c6742758264ce9f23f7f11
+timeCreated: 1524421578
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BODY
+    100002: body
+    100004: CHAIN
+    100006: chain
+    100008: chain 1
+    100010: chain1
+    100012: group4
+    100014: left
+    100016: leftfin
+    100018: lips
+    100020: PD
+    100022: pTorus10
+    100024: pTorus10 1
+    100026: pTorus11
+    100028: pTorus11 1
+    100030: pTorus12
+    100032: pTorus12 1
+    100034: pTorus13
+    100036: pTorus2
+    100038: pTorus2 1
+    100040: pTorus3
+    100042: pTorus3 1
+    100044: pTorus4
+    100046: pTorus4 1
+    100048: pTorus5
+    100050: pTorus5 1
+    100052: pTorus6
+    100054: pTorus6 1
+    100056: pTorus7
+    100058: pTorus7 1
+    100060: pTorus8
+    100062: pTorus8 1
+    100064: pTorus9
+    100066: pTorus9 1
+    100068: //RootNode
+    100070: Puffer1
+    100072: rightfin
+    100074: SWORD
+    100076: tail
+    100078: topfin
+    100080: transform1
+    100082: transform10
+    100084: transform11
+    100086: transform12
+    100088: transform13
+    100090: transform14
+    100092: transform15
+    100094: transform16
+    100096: transform17
+    100098: transform18
+    100100: transform19
+    100102: transform2
+    100104: transform20
+    100106: transform21
+    100108: transform22
+    100110: transform23
+    100112: transform3
+    100114: transform4
+    100116: transform5
+    100118: transform6
+    100120: transform7
+    100122: transform8
+    100124: transform9
+    400000: BODY
+    400002: body
+    400004: CHAIN
+    400006: chain
+    400008: chain 1
+    400010: chain1
+    400012: group4
+    400014: left
+    400016: leftfin
+    400018: lips
+    400020: PD
+    400022: pTorus10
+    400024: pTorus10 1
+    400026: pTorus11
+    400028: pTorus11 1
+    400030: pTorus12
+    400032: pTorus12 1
+    400034: pTorus13
+    400036: pTorus2
+    400038: pTorus2 1
+    400040: pTorus3
+    400042: pTorus3 1
+    400044: pTorus4
+    400046: pTorus4 1
+    400048: pTorus5
+    400050: pTorus5 1
+    400052: pTorus6
+    400054: pTorus6 1
+    400056: pTorus7
+    400058: pTorus7 1
+    400060: pTorus8
+    400062: pTorus8 1
+    400064: pTorus9
+    400066: pTorus9 1
+    400068: //RootNode
+    400070: Puffer1
+    400072: rightfin
+    400074: SWORD
+    400076: tail
+    400078: topfin
+    400080: transform1
+    400082: transform10
+    400084: transform11
+    400086: transform12
+    400088: transform13
+    400090: transform14
+    400092: transform15
+    400094: transform16
+    400096: transform17
+    400098: transform18
+    400100: transform19
+    400102: transform2
+    400104: transform20
+    400106: transform21
+    400108: transform22
+    400110: transform23
+    400112: transform3
+    400114: transform4
+    400116: transform5
+    400118: transform6
+    400120: transform7
+    400122: transform8
+    400124: transform9
+    2000000: left
+    2100000: Puffer
+    2300000: chain
+    2300002: leftfin
+    2300004: lips
+    2300006: PD
+    2300008: rightfin
+    2300010: SWORD
+    2300012: tail
+    2300014: topfin
+    3300000: chain
+    3300002: leftfin
+    3300004: lips
+    3300006: PD
+    3300008: rightfin
+    3300010: SWORD
+    3300012: tail
+    3300014: topfin
+    4300000: PD
+    4300002: body
+    4300004: lips
+    4300006: leftfin
+    4300008: tail
+    4300010: rightfin
+    4300012: SWORD
+    4300014: topfin
+    4300016: chain
+    7400000: Dead
+    7400002: Attack
+    7400004: Move
+    9500000: //RootNode
+    13700000: body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dead
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Move
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

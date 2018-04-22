@@ -8,6 +8,10 @@ public class PlayerController : MonoBehaviour {
     public float rotationSpeed = 2;
     public float jumpForce = 10f;
     public float maxSpeed = 5;
+    public float SpellCD = 5f;
+    bool canCast = true;
+    public float SwordCD = 0.5f;
+    bool canSlash = true;
     public GameObject spellPrefab;
     public GameObject castPoint;
     public GameObject planetContainer;
@@ -24,11 +28,21 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         if(CrossPlatformInputManager.GetButtonDown("Fire2"))
         {
-            CastSpell();
+            if (canCast)
+            {
+                canCast = false;
+                canSlash = false;
+                CastSpell();
+            }
         }
         if (CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
-            SlashSword();
+            if (canSlash)
+            {
+                canSlash = false;
+                canCast = false;
+                SlashSword();
+            }
         }
 	}
 	private void FixedUpdate()
@@ -64,9 +78,25 @@ public class PlayerController : MonoBehaviour {
         GameObject orbe = Instantiate(spellPrefab, castPoint.transform.position, castPoint.transform.rotation, planetContainer.transform);
         orbe.GetComponent<Rigidbody>().velocity = rb.velocity;
         orbe.GetComponent<Rigidbody>().AddForce(orbe.transform.forward * 200f);
+        StartCoroutine("CastCDTime");
     }
     public void SlashSword()
     {
         anim.SetTrigger("Slash");
+        StartCoroutine("SlashCDTime");
+    }
+    IEnumerator CastCDTime()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canSlash = true;
+        yield return new WaitForSeconds(SpellCD);
+        canCast = true;
+    }
+    IEnumerator SlashCDTime()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canCast = true;
+        yield return new WaitForSeconds(SwordCD);
+        canSlash = true;
     }
 }
