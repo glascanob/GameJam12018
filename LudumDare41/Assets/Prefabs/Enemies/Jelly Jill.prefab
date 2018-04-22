@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 136490976918017136}
   - component: {fileID: 54110209477196528}
   - component: {fileID: 114931847721916002}
+  - component: {fileID: 136474511996423426}
   m_Layer: 10
   m_Name: Jelly Jill
   m_TagString: Enemy
@@ -1272,6 +1273,19 @@ MonoBehaviour:
   Target: {fileID: 0}
   World: {fileID: 0}
   velocity: 55
+--- !u!136 &136474511996423426
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173165604781488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 3.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &136490976918017136
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1281,8 +1295,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 1
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137527143121909998
