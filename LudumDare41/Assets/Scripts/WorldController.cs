@@ -24,7 +24,7 @@ public class WorldController : MonoBehaviour {
         {
             Vector3 forceDirection =  objectOnWorld.transform.position - transform.position;
             Vector3 objectUp = objectOnWorld.transform.up;
-            objectOnWorld.AddForce(forceDirection.normalized * pullForce * Time.fixedDeltaTime);
+            objectOnWorld.AddForce(forceDirection.normalized * pullForce * Time.fixedDeltaTime, ForceMode.VelocityChange);
             Quaternion objectRotation = Quaternion.FromToRotation(objectUp, forceDirection) * objectOnWorld.transform.rotation;
             objectOnWorld.transform.rotation = Quaternion.Slerp(objectOnWorld.transform.rotation, objectRotation, 50f * Time.deltaTime);
         }

@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour {
-    public int moveSpeed = 5;
-    public int rotationSpeed = 2;
+    public float moveSpeed = 5;
+    public float rotationSpeed = 2;
     public float jumpForce = 10f;
     public float maxSpeed = 5;
     public GameObject spellPrefab;
@@ -41,13 +41,14 @@ public class PlayerController : MonoBehaviour {
         float x = CrossPlatformInputManager.GetAxis("Horizontal");
         float z = CrossPlatformInputManager.GetAxis("Vertical");
         anim.SetFloat("Velocity", z);
-        Vector3 inverseVector = transform.InverseTransformVector(rb.velocity);
+
         if(Mathf.Approximately(z, 0))
         {
-            rb.velocity *= 0.5f;
-            rb.velocity = transform.TransformVector(new Vector3(0, inverseVector.y, 0));
+            Vector3 inverseVector = transform.InverseTransformVector(GetComponent<Rigidbody>().velocity);
+            GetComponent<Rigidbody>().velocity *= 0.5f;
+            GetComponent<Rigidbody>().velocity = transform.TransformVector(new Vector3(0, inverseVector.y, 0));
         }
-        Vector3 moveDirection = new Vector3(x, y, z);
+        //Vector3 moveDirection = new Vector3(x, y, z);
         transform.Rotate(0, x * rotationSpeed * Time.deltaTime, 0);
         Vector3 moveForce = transform.forward * z * moveSpeed;
         Vector3 jumpVector = transform.TransformVector(new Vector3(0, y, 0));
