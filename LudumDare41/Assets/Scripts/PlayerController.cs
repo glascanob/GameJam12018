@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour {
         float x = CrossPlatformInputManager.GetAxis("Horizontal");
         float z = CrossPlatformInputManager.GetAxis("Vertical");
         anim.SetFloat("Velocity", z);
-
+        rb.angularVelocity = Vector3.zero;
         if(Mathf.Approximately(z, 0))
         {
             Vector3 inverseVector = transform.InverseTransformVector(GetComponent<Rigidbody>().velocity);
