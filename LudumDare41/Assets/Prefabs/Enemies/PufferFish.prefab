@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 136720708694980554}
   - component: {fileID: 54368786889853936}
   - component: {fileID: 114383175041313146}
+  - component: {fileID: 136948402151948844}
   m_Layer: 10
   m_Name: PufferFish
   m_TagString: Enemy
@@ -2276,10 +2277,23 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.5, z: -0.5}
+--- !u!136 &136948402151948844
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067032552083228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 2.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: -0.5}
 --- !u!137 &137873718701691958
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

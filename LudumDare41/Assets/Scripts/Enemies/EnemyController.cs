@@ -28,6 +28,16 @@ public class EnemyController : MonoBehaviour
         }
 	}
 
+    private void OnTriggerEnter(Collider other)
+    {
+        PlayerController player = other.GetComponent<PlayerController>();
+
+        if (player == null)
+            return;
+
+        player.HurtPlayer(5.0f);
+        m_Rigidbody.AddForce((transform.position - player.transform.position) * 20.0f, ForceMode.VelocityChange);
+    }
 
     public void AlignToPlayer()
     {
@@ -43,6 +53,11 @@ public class EnemyController : MonoBehaviour
             //transform.localEulerAngles = new Vector3(90f, 0, 0);
             anim.SetTrigger("Dead");
             StartCoroutine("WaitToDy");
+
+            PlayerController player = Target.GetComponentInChildren<PlayerController>();
+
+            if (player != null)
+                player.HealPlayer(7.5f);
         }
     }
     IEnumerator WaitToDy()

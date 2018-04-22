@@ -22,6 +22,16 @@ public class PlayerController : MonoBehaviour {
     Rigidbody rb;
     AudioSource audio;
 
+    public float MaxHealth = 100.0f;
+    private float CurHealth = 100.0f;
+
+    public float MaxMana = 100.0f;
+    private float CurMana = 100.0f;
+
+    public RectTransform HealthBar = null;
+    public RectTransform ManaBar = null;
+
+
 	// Use this for initialization
 	void Start () {
         anim = GetComponentInChildren<Animator>();
@@ -40,8 +50,50 @@ public class PlayerController : MonoBehaviour {
             SlashSword();
         }
 	}
+
+
+    public void HealPlayer(float fHeal)
+    {
+        CurHealth = Mathf.Clamp(CurHealth + fHeal, 0.0f, MaxHealth);
+    }
+
+
+    public void HurtPlayer(float fDamage)
+    {
+        CurHealth = Mathf.Clamp(CurHealth - fDamage, 0.0f, MaxHealth);
+
+        if (Mathf.Approximately(CurHealth, 0.0f))
+            KillPlayer();
+    }
+
+
+    public void KillPlayer()
+    {
+
+    }
+
+
+    private void UpdateHealthAndMana()
+    {
+        CurHealth = Mathf.Clamp(CurHealth - (Time.deltaTime * 1.0f), 0.0f, MaxHealth);
+        CurMana = Mathf.Clamp(CurMana + (Time.deltaTime * 2.0f), 0.0f, MaxMana);
+
+        if (HealthBar != null)
+            HealthBar.sizeDelta = new Vector2(((CurHealth / MaxHealth) * 180.0f), 20.0f);
+
+        if (ManaBar != null)
+            ManaBar.sizeDelta = new Vector2(((CurMana / MaxMana) * 180.0f), 20.0f);
+
+
+        if (Mathf.Approximately(CurHealth, 0.0f))
+            KillPlayer();
+    }
+
+
 	private void FixedUpdate()
 	{
+        UpdateHealthAndMana();
+        
         float y = 0;
         //if (CrossPlatformInputManager.GetButtonDown("Jump"))
         //{
@@ -69,6 +121,11 @@ public class PlayerController : MonoBehaviour {
     }
     public void CastSpell()
     {
+        if (CurMana < 10.0f)
+            return;
+
+        CurMana -= 10.0f;
+
         if (canCast)
         {
             canCast = false;
@@ -81,7 +138,6 @@ public class PlayerController : MonoBehaviour {
             audio.clip = soundFX[0];
             audio.Play();
         }
-
     }
     public void SlashSword()
     {
