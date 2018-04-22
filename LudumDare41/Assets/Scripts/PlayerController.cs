@@ -8,7 +8,9 @@ public class PlayerController : MonoBehaviour {
     public int rotationSpeed = 2;
     public float jumpForce = 10f;
     public float maxSpeed = 5;
-
+    public GameObject spellPrefab;
+    public GameObject castPoint;
+    public GameObject planetContainer;
     Animator anim;
 
 	// Use this for initialization
@@ -20,11 +22,11 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         if(CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
-            anim.SetTrigger("Cast");
+            CastSpell();
         }
         if (CrossPlatformInputManager.GetButtonDown("Fire2"))
         {
-            anim.SetTrigger("Slash");
+            SlashSword();
         }
 	}
 	private void FixedUpdate()
@@ -47,12 +49,20 @@ public class PlayerController : MonoBehaviour {
         transform.Rotate(0, x * rotationSpeed * Time.deltaTime, 0);
         Vector3 moveForce = transform.forward * z * moveSpeed;
         Vector3 jumpVector = transform.TransformVector(new Vector3(0, y, 0));
-        Debug.Log("JumpVector " + jumpVector + " moveForce "+ moveForce);
         moveForce += jumpVector;
-        Debug.Log( "moveForce " + moveForce);
         GetComponent<Rigidbody>().AddForce(moveForce * Time.deltaTime, ForceMode.VelocityChange);
 
         //GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.TransformDirection(moveDirection)* moveSpeed * Time.deltaTime);
         y = 0;
+    }
+    public void CastSpell()
+    {
+        anim.SetTrigger("Cast");
+        GameObject orbe = Instantiate(spellPrefab, castPoint.transform.position, castPoint.transform.rotation, planetContainer.transform);
+        orbe.GetComponent<Rigidbody>().AddForce(orbe.transform.forward * 200f);
+    }
+    public void SlashSword()
+    {
+        anim.SetTrigger("Slash");
     }
 }

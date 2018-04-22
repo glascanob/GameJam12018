@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1fd2e4b6c5803476cbf858ca3fa3aa0e
-timeCreated: 1524349276
+guid: 5c9fde8f198f740f19c523d37aa114e2
+timeCreated: 1524414786
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -90,28 +90,13 @@ ModelImporter:
     4300012: jelly_TentacleLeft
     4300014: jelly_TentacleBack
     4300016: jelly_TentacleRight
-    7400000: Move
+    7400000: Dead
     9500000: //RootNode
     13700000: jelly_TentacleBack
     13700002: jelly_TentacleFront
     13700004: jelly_TentacleLeft
     13700006: jelly_TentacleRight
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: tex_Jelly
-    second: {fileID: 2100000, guid: 076b3a9b23e0d4e6296f6fb748227177, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: tex_Shades
-    second: {fileID: 2100000, guid: 4782c99dc894149a68669682d39a01c3, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: JellyTexture
-    second: {fileID: 2800000, guid: 0cbcdb0c8a74b4cefa74c5ea7943832b, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -139,18 +124,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Move
+      name: Dead
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 39
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
