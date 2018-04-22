@@ -40,7 +40,7 @@ public class EnemyController : MonoBehaviour
         {
             m_Rigidbody.velocity = Vector3.zero;
             following = false;
-            transform.localEulerAngles = new Vector3(90f, 0, 0);
+            //transform.localEulerAngles = new Vector3(90f, 0, 0);
             anim.SetTrigger("Dead");
             StartCoroutine("WaitToDy");
         }

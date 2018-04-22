@@ -15,34 +15,28 @@ public class PlayerController : MonoBehaviour {
     public GameObject spellPrefab;
     public GameObject castPoint;
     public GameObject planetContainer;
+    public AudioClip[] soundFX;
+
     Animator anim;
     Rigidbody rb;
+    AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if(CrossPlatformInputManager.GetButtonDown("Fire2"))
         {
-            if (canCast)
-            {
-                canCast = false;
-                canSlash = false;
-                CastSpell();
-            }
+            CastSpell();
         }
         if (CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
-            if (canSlash)
-            {
-                canSlash = false;
-                canCast = false;
-                SlashSword();
-            }
+            SlashSword();
         }
 	}
 	private void FixedUpdate()
@@ -74,16 +68,31 @@ public class PlayerController : MonoBehaviour {
     }
     public void CastSpell()
     {
-        anim.SetTrigger("Cast");
-        GameObject orbe = Instantiate(spellPrefab, castPoint.transform.position, castPoint.transform.rotation, planetContainer.transform);
-        orbe.GetComponent<Rigidbody>().velocity = rb.velocity;
-        orbe.GetComponent<Rigidbody>().AddForce(orbe.transform.forward * 200f);
-        StartCoroutine("CastCDTime");
+        if (canCast)
+        {
+            canCast = false;
+            canSlash = false;
+            anim.SetTrigger("Cast");
+            GameObject orbe = Instantiate(spellPrefab, castPoint.transform.position, castPoint.transform.rotation, planetContainer.transform);
+            orbe.GetComponent<Rigidbody>().velocity = rb.velocity;
+            orbe.GetComponent<Rigidbody>().AddForce(orbe.transform.forward * 200f);
+            StartCoroutine("CastCDTime");
+            audio.clip = soundFX[0];
+            audio.Play();
+        }
+
     }
     public void SlashSword()
     {
-        anim.SetTrigger("Slash");
-        StartCoroutine("SlashCDTime");
+        if (canSlash)
+        {
+            canSlash = false;
+            canCast = false;
+            anim.SetTrigger("Slash");
+            StartCoroutine("SlashCDTime");
+            audio.clip = soundFX[1];
+            audio.Play();
+        }
     }
     IEnumerator CastCDTime()
     {
