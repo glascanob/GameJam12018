@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 34e725d9553ba416b80f5ba9b8ce1614
+timeCreated: 1524420721
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mountainpeak_a1
+    100004: mountainpeak_a2
+    100006: mountainpeak_a3
+    100008: mountainpeak_b1
+    100010: mountainpeak_b2
+    100012: mountainpeak_b3
+    100014: mountainpeak_c1
+    100016: mountainpeak_c2
+    100018: mountainpeak_c3
+    100020: mountainpeak_c4
+    100022: mountainpeak_c5
+    100024: pCube1
+    100026: planet
+    100028: stone_a1
+    100030: stone_b1
+    100032: stone_c1
+    100034: stone_d1
+    100036: stone_e1
+    100038: stone_f1
+    100040: tree_a1
+    100042: tree_b1
+    100044: tree_c1
+    100046: wizard_tower1
+    400000: //RootNode
+    400002: mountainpeak_a1
+    400004: mountainpeak_a2
+    400006: mountainpeak_a3
+    400008: mountainpeak_b1
+    400010: mountainpeak_b2
+    400012: mountainpeak_b3
+    400014: mountainpeak_c1
+    400016: mountainpeak_c2
+    400018: mountainpeak_c3
+    400020: mountainpeak_c4
+    400022: mountainpeak_c5
+    400024: pCube1
+    400026: planet
+    400028: stone_a1
+    400030: stone_b1
+    400032: stone_c1
+    400034: stone_d1
+    400036: stone_e1
+    400038: stone_f1
+    400040: tree_a1
+    400042: tree_b1
+    400044: tree_c1
+    400046: wizard_tower1
+    2100000: grass
+    2100002: treebark
+    2100004: forest_green
+    2100006: treehighlight
+    2100008: lambert1
+    2100010: stone_highlight
+    2100012: white
+    2100014: stone_base
+    2100016: stone_shadow
+    2300000: mountainpeak_a1
+    2300002: mountainpeak_a2
+    2300004: mountainpeak_a3
+    2300006: mountainpeak_b1
+    2300008: mountainpeak_b2
+    2300010: mountainpeak_b3
+    2300012: mountainpeak_c1
+    2300014: mountainpeak_c2
+    2300016: mountainpeak_c3
+    2300018: mountainpeak_c4
+    2300020: mountainpeak_c5
+    2300022: pCube1
+    2300024: planet
+    2300026: stone_a1
+    2300028: stone_b1
+    2300030: stone_c1
+    2300032: stone_d1
+    2300034: stone_e1
+    2300036: stone_f1
+    2300038: tree_a1
+    2300040: tree_b1
+    2300042: tree_c1
+    2300044: wizard_tower1
+    3300000: mountainpeak_a1
+    3300002: mountainpeak_a2
+    3300004: mountainpeak_a3
+    3300006: mountainpeak_b1
+    3300008: mountainpeak_b2
+    3300010: mountainpeak_b3
+    3300012: mountainpeak_c1
+    3300014: mountainpeak_c2
+    3300016: mountainpeak_c3
+    3300018: mountainpeak_c4
+    3300020: mountainpeak_c5
+    3300022: pCube1
+    3300024: planet
+    3300026: stone_a1
+    3300028: stone_b1
+    3300030: stone_c1
+    3300032: stone_d1
+    3300034: stone_e1
+    3300036: stone_f1
+    3300038: tree_a1
+    3300040: tree_b1
+    3300042: tree_c1
+    3300044: wizard_tower1
+    4300000: planet
+    4300002: tree_c1
+    4300004: tree_a1
+    4300006: tree_b1
+    4300008: pCube1
+    4300010: mountainpeak_a1
+    4300012: mountainpeak_a2
+    4300014: mountainpeak_a3
+    4300016: wizard_tower1
+    4300018: mountainpeak_b3
+    4300020: mountainpeak_b2
+    4300022: stone_d1
+    4300024: stone_f1
+    4300026: stone_c1
+    4300028: stone_a1
+    4300030: stone_b1
+    4300032: stone_e1
+    4300034: mountainpeak_c5
+    4300036: mountainpeak_c4
+    4300038: mountainpeak_c3
+    4300040: mountainpeak_c2
+    4300042: mountainpeak_c1
+    4300044: mountainpeak_b1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

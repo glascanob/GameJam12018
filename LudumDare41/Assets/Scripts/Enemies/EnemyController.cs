@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public Transform Target;
     public Transform World;
+    public float velocity = 50;
 
     private Rigidbody m_Rigidbody = null;
     Animator anim;
@@ -21,8 +22,9 @@ public class EnemyController : MonoBehaviour
     {
         if (following)
         {
+            m_Rigidbody.angularVelocity = Vector3.zero;
             AlignToPlayer();
-            m_Rigidbody.AddForce(transform.forward * 3.5f * Time.deltaTime, ForceMode.VelocityChange);
+            m_Rigidbody.AddForce(transform.forward * velocity * Time.deltaTime, ForceMode.VelocityChange);
         }
 	}
 
