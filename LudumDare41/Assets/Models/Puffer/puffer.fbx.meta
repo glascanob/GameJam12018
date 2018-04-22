@@ -175,7 +175,12 @@ ModelImporter:
     4300058: pTorus13
     4300060: PD
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puffer
+    second: {fileID: 2100000, guid: 02b837611238a4d4e91d0d8673756d42, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
