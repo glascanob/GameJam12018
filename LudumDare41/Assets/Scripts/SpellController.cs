@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpellController : MonoBehaviour {
-
 	// Use this for initialization
 	void Start () {
         StartCoroutine("LifeTimeCD");
@@ -17,7 +16,7 @@ public class SpellController : MonoBehaviour {
 	{
 		if(other.tag == "Enemy")
         {
-            Destroy(other.gameObject);
+            other.GetComponent<EnemyController>().DeadState();
             Destroy(gameObject);
         }
 	}

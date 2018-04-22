@@ -12,19 +12,21 @@ public class PlayerController : MonoBehaviour {
     public GameObject castPoint;
     public GameObject planetContainer;
     Animator anim;
+    Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
         anim = GetComponentInChildren<Animator>();
+        rb = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(CrossPlatformInputManager.GetButtonDown("Fire1"))
+        if(CrossPlatformInputManager.GetButtonDown("Fire2"))
         {
             CastSpell();
         }
-        if (CrossPlatformInputManager.GetButtonDown("Fire2"))
+        if (CrossPlatformInputManager.GetButtonDown("Fire1"))
         {
             SlashSword();
         }
@@ -51,7 +53,7 @@ public class PlayerController : MonoBehaviour {
         Vector3 moveForce = transform.forward * z * moveSpeed;
         Vector3 jumpVector = transform.TransformVector(new Vector3(0, y, 0));
         moveForce += jumpVector;
-        GetComponent<Rigidbody>().AddForce(moveForce * Time.deltaTime, ForceMode.VelocityChange);
+        rb.AddForce(moveForce * Time.deltaTime, ForceMode.VelocityChange);
 
         //GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.TransformDirection(moveDirection)* moveSpeed * Time.deltaTime);
         y = 0;
@@ -60,6 +62,7 @@ public class PlayerController : MonoBehaviour {
     {
         anim.SetTrigger("Cast");
         GameObject orbe = Instantiate(spellPrefab, castPoint.transform.position, castPoint.transform.rotation, planetContainer.transform);
+        orbe.GetComponent<Rigidbody>().velocity = rb.velocity;
         orbe.GetComponent<Rigidbody>().AddForce(orbe.transform.forward * 200f);
     }
     public void SlashSword()
