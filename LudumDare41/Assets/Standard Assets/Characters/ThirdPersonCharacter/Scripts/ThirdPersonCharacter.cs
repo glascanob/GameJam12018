@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -119,6 +121,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		{
 			// update the animator parameters
 			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
+            float movement = 0;
+            if (move.magnitude > 0)
+            {
+                movement = 1f;
+            }
+            m_Animator.SetFloat("Move", movement, 0.1f, Time.deltaTime);
 			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
 			m_Animator.SetBool("Crouch", m_Crouching);
 			m_Animator.SetBool("OnGround", m_IsGrounded);
@@ -200,8 +208,23 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Rigidbody.velocity = v;
 			}
 		}
-
-
+        public void castSpell()
+        {
+            //if(m_Animator.GetFloat("Move") > 0)
+            //{
+            //    m_Animator.SetFloat("Slash", 1);
+            //    StartCoroutine("SlashCountDown");
+            //}
+            //else{
+                m_Animator.SetTrigger("Spell");
+            //}
+        }
+        IEnumerator SlashCountDown()
+        {
+            yield return new WaitForSeconds(0.5f);
+            yield return new WaitUntil(() => m_Animator.GetCurrentAnimatorStateInfo(1).normalizedTime > 0.8);
+            m_Animator.SetFloat("Slash", 0);
+        }
 		void CheckGroundStatus()
 		{
 			RaycastHit hitInfo;
