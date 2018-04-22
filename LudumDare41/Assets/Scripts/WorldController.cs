@@ -6,9 +6,10 @@ public class WorldController : MonoBehaviour {
     public GameObject world;
     Rigidbody[] gravityObjects;
     public int pullForce = 1;
+
 	// Use this for initialization
 	void Start () {
-        gravityObjects = world.GetComponentsInChildren<Rigidbody>();
+
 	}
 	
 	// Update is called once per frame
@@ -17,6 +18,8 @@ public class WorldController : MonoBehaviour {
 	}
 	private void FixedUpdate()
 	{
+        gravityObjects = world.GetComponentsInChildren<Rigidbody>();
+
         foreach (Rigidbody objectOnWorld in gravityObjects)
         {
             Vector3 forceDirection =  objectOnWorld.transform.position - transform.position;
