@@ -27,6 +27,9 @@ public class SpellController : MonoBehaviour {
             other.GetComponent<EnemyController>().DeadState();
             ExplodeOnEnemy();
         }
+        else{
+            ExplodeOnEnemy();
+        }
 	}
     IEnumerator ExplodeOnEnemy()
     {

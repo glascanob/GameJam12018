@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4897758519493676}
   - component: {fileID: 198802485659884616}
   - component: {fileID: 199816842099156258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireballExplode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 4524556107764010}
   - component: {fileID: 198572963697839006}
   - component: {fileID: 199561688464666024}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fiery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4696721966272576}
   - component: {fileID: 198146263236083754}
   - component: {fileID: 199802698895028638}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fiery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 4353342654962350}
   - component: {fileID: 198682030547871560}
   - component: {fileID: 199424318086708540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 4040647956408240}
   - component: {fileID: 198169670821404948}
   - component: {fileID: 199931195571068388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 4852541926253296}
   - component: {fileID: 198348546279376162}
   - component: {fileID: 199443850955432374}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bloom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 4879511996094560}
   - component: {fileID: 198326356884745518}
   - component: {fileID: 199114224612493888}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bloompar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 4780819015795004}
   - component: {fileID: 198073704417043340}
   - component: {fileID: 199603467234258694}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 23141801316544856}
   - component: {fileID: 54892711240874404}
   - component: {fileID: 114897969465078458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
