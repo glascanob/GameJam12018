@@ -14,10 +14,13 @@ public class SpellController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if (notHit)
         {
-            GetComponent<Rigidbody>().AddForce(transform.forward * 5f * Time.deltaTime);
+            rgbd.AddForce(transform.forward * 5f * Time.deltaTime);
+        }
+        else{
+            rgbd.velocity = Vector3.zero;
         }
 	}
 	private void OnTriggerEnter(Collider other)
@@ -28,6 +31,8 @@ public class SpellController : MonoBehaviour {
             ExplodeOnEnemy();
         }
         else{
+            Debug.Log("enter!!!");
+            rgbd.velocity = Vector3.zero;
             ExplodeOnEnemy();
         }
 	}

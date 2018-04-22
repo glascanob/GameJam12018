@@ -54,7 +54,7 @@ public class SpawnManager : MonoBehaviour
 
     private void SpawnCreatureAtPosition(Vector3 v3Pos)
     {
-        GameObject enemyObj = GameObject.Instantiate(CreatureList[0], v3Pos, Quaternion.identity, SpawnParent);
+        GameObject enemyObj = GameObject.Instantiate(CreatureList[Random.Range(0,CreatureList.Length)], v3Pos, Quaternion.identity, SpawnParent);
 
         if (enemyObj != null)
         {

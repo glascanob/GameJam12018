@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: fff94abe5d3464124a9ae3c2b357335f
+timeCreated: 1524433936
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mountain_lair
+    100004: mountainpeak_a1
+    100006: mountainpeak_a2
+    100008: mountainpeak_a3
+    100010: mountainpeak_b1
+    100012: mountainpeak_b1 1
+    100014: mountainpeak_b1 2
+    100016: mountainpeak_b1 3
+    100018: mountainpeak_b1 4
+    100020: mountainpeak_b1 5
+    100022: mountainpeak_b1 6
+    100024: mountainpeak_b2
+    100026: mountainpeak_b3
+    100028: mountainpeak_b3 1
+    100030: mountainpeak_b3 2
+    100032: mountainpeak_b3 3
+    100034: mountainpeak_b3 4
+    100036: mountainpeak_b3 5
+    100038: mountainpeak_b3 6
+    100040: mountainpeak_c1
+    100042: mountainpeak_c1 1
+    100044: mountainpeak_c1 2
+    100046: mountainpeak_c1 3
+    100048: mountainpeak_c1 4
+    100050: mountainpeak_c1 5
+    100052: mountainpeak_c1 6
+    100054: mountainpeak_c10
+    100056: mountainpeak_c10 1
+    100058: mountainpeak_c10 2
+    100060: mountainpeak_c10 3
+    100062: mountainpeak_c11
+    100064: mountainpeak_c11 1
+    100066: mountainpeak_c11 2
+    100068: mountainpeak_c11 3
+    100070: mountainpeak_c2
+    100072: mountainpeak_c3
+    100074: mountainpeak_c3 1
+    100076: mountainpeak_c3 2
+    100078: mountainpeak_c3 3
+    100080: mountainpeak_c3 4
+    100082: mountainpeak_c3 5
+    100084: mountainpeak_c3 6
+    100086: mountainpeak_c4
+    100088: mountainpeak_c4 1
+    100090: mountainpeak_c4 2
+    100092: mountainpeak_c4 3
+    100094: mountainpeak_c4 4
+    100096: mountainpeak_c4 5
+    100098: mountainpeak_c4 6
+    100100: mountainpeak_c5
+    100102: mountainpeak_c5 1
+    100104: mountainpeak_c5 2
+    100106: mountainpeak_c5 3
+    100108: mountainpeak_c5 4
+    100110: mountainpeak_c5 5
+    100112: mountainpeak_c5 6
+    100114: mountainpeak_c6
+    100116: mountainpeak_c6 1
+    100118: mountainpeak_c6 2
+    100120: mountainpeak_c6 3
+    100122: mountainpeak_c6 4
+    100124: mountainpeak_c6 5
+    100126: mountainpeak_c7
+    100128: mountainpeak_c7 1
+    100130: mountainpeak_c7 2
+    100132: mountainpeak_c7 3
+    100134: mountainpeak_c7 4
+    100136: mountainpeak_c7 5
+    100138: mountainpeak_c8
+    100140: mountainpeak_c9
+    100142: mountainpeak_c9 1
+    100144: mountainpeak_c9 2
+    100146: mountainpeak_c9 3
+    100148: planet
+    100150: rock_formation1
+    100152: rock_formation10
+    100154: rock_formation11
+    100156: rock_formation12
+    100158: rock_formation13
+    100160: rock_formation14
+    100162: rock_formation15
+    100164: rock_formation16
+    100166: rock_formation17
+    100168: rock_formation2
+    100170: rock_formation3
+    100172: rock_formation4
+    100174: rock_formation5
+    100176: rock_formation6
+    100178: rock_formation7
+    100180: rock_formation8
+    100182: rock_formation9
+    100184: stone_a1
+    100186: stone_a2
+    100188: stone_a2 1
+    100190: stone_a2 2
+    100192: stone_a2 3
+    100194: stone_a2 4
+    100196: stone_a2 5
+    100198: stone_a3
+    100200: stone_a3 1
+    100202: stone_a3 2
+    100204: stone_a3 3
+    100206: stone_b1
+    100208: stone_b10
+    100210: stone_b2
+    100212: stone_b2 1
+    100214: stone_b2 10
+    100216: stone_b2 11
+    100218: stone_b2 12
+    100220: stone_b2 13
+    100222: stone_b2 14
+    100224: stone_b2 15
+    100226: stone_b2 16
+    100228: stone_b2 2
+    100230: stone_b2 3
+    100232: stone_b2 4
+    100234: stone_b2 5
+    100236: stone_b2 6
+    100238: stone_b2 7
+    100240: stone_b2 8
+    100242: stone_b2 9
+    100244: stone_b3
+    100246: stone_b3 1
+    100248: stone_b3 2
+    100250: stone_b4
+    100252: stone_b4 1
+    100254: stone_b4 2
+    100256: stone_b4 3
+    100258: stone_b4 4
+    100260: stone_b4 5
+    100262: stone_b5
+    100264: stone_b5 1
+    100266: stone_b5 2
+    100268: stone_b5 3
+    100270: stone_b5 4
+    100272: stone_b5 5
+    100274: stone_b6
+    100276: stone_b6 1
+    100278: stone_b6 2
+    100280: stone_b6 3
+    100282: stone_b6 4
+    100284: stone_b7
+    100286: stone_b7 1
+    100288: stone_b7 2
+    100290: stone_b7 3
+    100292: stone_b8
+    100294: stone_b8 1
+    100296: stone_b8 2
+    100298: stone_b8 3
+    100300: stone_b9
+    100302: stone_b9 1
+    100304: stone_b9 2
+    100306: stone_b9 3
+    100308: stone_c1
+    100310: stone_c2
+    100312: stone_c3
+    100314: stone_c4
+    100316: stone_c5
+    100318: stone_c6
+    100320: stone_c6 1
+    100322: stone_c6 2
+    100324: stone_c6 3
+    100326: stone_c6 4
+    100328: stone_c6 5
+    100330: stone_c7
+    100332: stone_c8
+    100334: stone_d1
+    100336: stone_d2
+    100338: stone_d3
+    100340: stone_e1
+    100342: stone_e2
+    100344: stone_e3
+    100346: stone_f1
+    100348: stone_f2
+    100350: stone_f3
+    100352: tree_a1
+    100354: tree_a2
+    100356: tree_a3
+    100358: tree_a3 1
+    100360: tree_a3 2
+    100362: tree_a3 3
+    100364: tree_a3 4
+    100366: tree_a4
+    100368: tree_a4 1
+    100370: tree_a4 2
+    100372: tree_a4 3
+    100374: tree_a4 4
+    100376: tree_a5
+    100378: tree_a6
+    100380: tree_b1
+    100382: tree_b2
+    100384: tree_b3
+    100386: tree_b3 1
+    100388: tree_b4
+    100390: tree_b4 1
+    100392: tree_b5
+    100394: tree_c1
+    100396: tree_c2
+    100398: tree_c3
+    100400: tree_d1
+    100402: tree_d1 1
+    100404: tree_d1 10
+    100406: tree_d1 11
+    100408: tree_d1 12
+    100410: tree_d1 13
+    100412: tree_d1 14
+    100414: tree_d1 15
+    100416: tree_d1 16
+    100418: tree_d1 2
+    100420: tree_d1 3
+    100422: tree_d1 4
+    100424: tree_d1 5
+    100426: tree_d1 6
+    100428: tree_d1 7
+    100430: tree_d1 8
+    100432: tree_d1 9
+    100434: tree_d2
+    100436: tree_d2 1
+    100438: tree_d3
+    100440: tree_d3 1
+    100442: tree_d4
+    100444: tree_d4 1
+    100446: tree_d4 2
+    100448: tree_d4 3
+    100450: tree_d5
+    100452: tree_d5 1
+    100454: tree_d5 2
+    100456: tree_e1
+    100458: tree_e1 1
+    100460: tree_e1 2
+    100462: tree_e1 3
+    100464: tree_e2
+    100466: tree_e2 1
+    100468: tree_e2 2
+    100470: tree_e2 3
+    100472: tree_e2 4
+    100474: tree_e2 5
+    100476: tree_e2 6
+    100478: tree_e2 7
+    100480: tree_e2 8
+    100482: tree_e3
+    100484: tree_e3 1
+    100486: tree_e3 2
+    100488: tree_e4
+    100490: tree_e4 1
+    100492: tree_e5
+    100494: tree_e5 1
+    100496: tree_e6
+    100498: tree_e6 1
+    100500: tree_e7
+    100502: tree_e7 1
+    100504: tree_e7 2
+    100506: tree_e7 3
+    100508: tree_e8
+    100510: tree_e8 1
+    100512: tree_e8 2
+    100514: tree_e9
+    100516: tree_e9 1
+    100518: tree_e9 2
+    100520: tree_e9 3
+    100522: tree_f1
+    100524: tree_f10
+    100526: tree_f10 1
+    100528: tree_f10 2
+    100530: tree_f10 3
+    100532: tree_f10 4
+    100534: tree_f2
+    100536: tree_f3
+    100538: tree_f4
+    100540: tree_f5
+    100542: tree_f6
+    100544: tree_f6 1
+    100546: tree_f6 10
+    100548: tree_f6 11
+    100550: tree_f6 12
+    100552: tree_f6 13
+    100554: tree_f6 14
+    100556: tree_f6 15
+    100558: tree_f6 16
+    100560: tree_f6 2
+    100562: tree_f6 3
+    100564: tree_f6 4
+    100566: tree_f6 5
+    100568: tree_f6 6
+    100570: tree_f6 7
+    100572: tree_f6 8
+    100574: tree_f6 9
+    100576: tree_f7
+    100578: tree_f7 1
+    100580: tree_f7 2
+    100582: tree_f8
+    100584: tree_f8 1
+    100586: tree_f8 2
+    100588: tree_f8 3
+    100590: tree_f8 4
+    100592: tree_f8 5
+    100594: tree_f8 6
+    100596: tree_f8 7
+    100598: tree_f9
+    100600: tree_f9 1
+    100602: tree_f9 2
+    100604: tree_group
+    100606: tree_group10
+    100608: tree_group11
+    100610: tree_group12
+    100612: tree_group13
+    100614: tree_group14
+    100616: tree_group15
+    100618: tree_group16
+    100620: tree_group17
+    100622: tree_group18
+    100624: tree_group19
+    100626: tree_group2
+    100628: tree_group20
+    100630: tree_group21
+    100632: tree_group22
+    100634: tree_group23
+    100636: tree_group24
+    100638: tree_group25
+    100640: tree_group26
+    100642: tree_group27
+    100644: tree_group28
+    100646: tree_group29
+    100648: tree_group3
+    100650: tree_group30
+    100652: tree_group31
+    100654: tree_group4
+    100656: tree_group6
+    100658: tree_group7
+    100660: tree_group8
+    100662: tree_group9
+    100664: wizard_tower1
+    400000: //RootNode
+    400002: mountain_lair
+    400004: mountainpeak_a1
+    400006: mountainpeak_a2
+    400008: mountainpeak_a3
+    400010: mountainpeak_b1
+    400012: mountainpeak_b1 1
+    400014: mountainpeak_b1 2
+    400016: mountainpeak_b1 3
+    400018: mountainpeak_b1 4
+    400020: mountainpeak_b1 5
+    400022: mountainpeak_b1 6
+    400024: mountainpeak_b2
+    400026: mountainpeak_b3
+    400028: mountainpeak_b3 1
+    400030: mountainpeak_b3 2
+    400032: mountainpeak_b3 3
+    400034: mountainpeak_b3 4
+    400036: mountainpeak_b3 5
+    400038: mountainpeak_b3 6
+    400040: mountainpeak_c1
+    400042: mountainpeak_c1 1
+    400044: mountainpeak_c1 2
+    400046: mountainpeak_c1 3
+    400048: mountainpeak_c1 4
+    400050: mountainpeak_c1 5
+    400052: mountainpeak_c1 6
+    400054: mountainpeak_c10
+    400056: mountainpeak_c10 1
+    400058: mountainpeak_c10 2
+    400060: mountainpeak_c10 3
+    400062: mountainpeak_c11
+    400064: mountainpeak_c11 1
+    400066: mountainpeak_c11 2
+    400068: mountainpeak_c11 3
+    400070: mountainpeak_c2
+    400072: mountainpeak_c3
+    400074: mountainpeak_c3 1
+    400076: mountainpeak_c3 2
+    400078: mountainpeak_c3 3
+    400080: mountainpeak_c3 4
+    400082: mountainpeak_c3 5
+    400084: mountainpeak_c3 6
+    400086: mountainpeak_c4
+    400088: mountainpeak_c4 1
+    400090: mountainpeak_c4 2
+    400092: mountainpeak_c4 3
+    400094: mountainpeak_c4 4
+    400096: mountainpeak_c4 5
+    400098: mountainpeak_c4 6
+    400100: mountainpeak_c5
+    400102: mountainpeak_c5 1
+    400104: mountainpeak_c5 2
+    400106: mountainpeak_c5 3
+    400108: mountainpeak_c5 4
+    400110: mountainpeak_c5 5
+    400112: mountainpeak_c5 6
+    400114: mountainpeak_c6
+    400116: mountainpeak_c6 1
+    400118: mountainpeak_c6 2
+    400120: mountainpeak_c6 3
+    400122: mountainpeak_c6 4
+    400124: mountainpeak_c6 5
+    400126: mountainpeak_c7
+    400128: mountainpeak_c7 1
+    400130: mountainpeak_c7 2
+    400132: mountainpeak_c7 3
+    400134: mountainpeak_c7 4
+    400136: mountainpeak_c7 5
+    400138: mountainpeak_c8
+    400140: mountainpeak_c9
+    400142: mountainpeak_c9 1
+    400144: mountainpeak_c9 2
+    400146: mountainpeak_c9 3
+    400148: planet
+    400150: rock_formation1
+    400152: rock_formation10
+    400154: rock_formation11
+    400156: rock_formation12
+    400158: rock_formation13
+    400160: rock_formation14
+    400162: rock_formation15
+    400164: rock_formation16
+    400166: rock_formation17
+    400168: rock_formation2
+    400170: rock_formation3
+    400172: rock_formation4
+    400174: rock_formation5
+    400176: rock_formation6
+    400178: rock_formation7
+    400180: rock_formation8
+    400182: rock_formation9
+    400184: stone_a1
+    400186: stone_a2
+    400188: stone_a2 1
+    400190: stone_a2 2
+    400192: stone_a2 3
+    400194: stone_a2 4
+    400196: stone_a2 5
+    400198: stone_a3
+    400200: stone_a3 1
+    400202: stone_a3 2
+    400204: stone_a3 3
+    400206: stone_b1
+    400208: stone_b10
+    400210: stone_b2
+    400212: stone_b2 1
+    400214: stone_b2 10
+    400216: stone_b2 11
+    400218: stone_b2 12
+    400220: stone_b2 13
+    400222: stone_b2 14
+    400224: stone_b2 15
+    400226: stone_b2 16
+    400228: stone_b2 2
+    400230: stone_b2 3
+    400232: stone_b2 4
+    400234: stone_b2 5
+    400236: stone_b2 6
+    400238: stone_b2 7
+    400240: stone_b2 8
+    400242: stone_b2 9
+    400244: stone_b3
+    400246: stone_b3 1
+    400248: stone_b3 2
+    400250: stone_b4
+    400252: stone_b4 1
+    400254: stone_b4 2
+    400256: stone_b4 3
+    400258: stone_b4 4
+    400260: stone_b4 5
+    400262: stone_b5
+    400264: stone_b5 1
+    400266: stone_b5 2
+    400268: stone_b5 3
+    400270: stone_b5 4
+    400272: stone_b5 5
+    400274: stone_b6
+    400276: stone_b6 1
+    400278: stone_b6 2
+    400280: stone_b6 3
+    400282: stone_b6 4
+    400284: stone_b7
+    400286: stone_b7 1
+    400288: stone_b7 2
+    400290: stone_b7 3
+    400292: stone_b8
+    400294: stone_b8 1
+    400296: stone_b8 2
+    400298: stone_b8 3
+    400300: stone_b9
+    400302: stone_b9 1
+    400304: stone_b9 2
+    400306: stone_b9 3
+    400308: stone_c1
+    400310: stone_c2
+    400312: stone_c3
+    400314: stone_c4
+    400316: stone_c5
+    400318: stone_c6
+    400320: stone_c6 1
+    400322: stone_c6 2
+    400324: stone_c6 3
+    400326: stone_c6 4
+    400328: stone_c6 5
+    400330: stone_c7
+    400332: stone_c8
+    400334: stone_d1
+    400336: stone_d2
+    400338: stone_d3
+    400340: stone_e1
+    400342: stone_e2
+    400344: stone_e3
+    400346: stone_f1
+    400348: stone_f2
+    400350: stone_f3
+    400352: tree_a1
+    400354: tree_a2
+    400356: tree_a3
+    400358: tree_a3 1
+    400360: tree_a3 2
+    400362: tree_a3 3
+    400364: tree_a3 4
+    400366: tree_a4
+    400368: tree_a4 1
+    400370: tree_a4 2
+    400372: tree_a4 3
+    400374: tree_a4 4
+    400376: tree_a5
+    400378: tree_a6
+    400380: tree_b1
+    400382: tree_b2
+    400384: tree_b3
+    400386: tree_b3 1
+    400388: tree_b4
+    400390: tree_b4 1
+    400392: tree_b5
+    400394: tree_c1
+    400396: tree_c2
+    400398: tree_c3
+    400400: tree_d1
+    400402: tree_d1 1
+    400404: tree_d1 10
+    400406: tree_d1 11
+    400408: tree_d1 12
+    400410: tree_d1 13
+    400412: tree_d1 14
+    400414: tree_d1 15
+    400416: tree_d1 16
+    400418: tree_d1 2
+    400420: tree_d1 3
+    400422: tree_d1 4
+    400424: tree_d1 5
+    400426: tree_d1 6
+    400428: tree_d1 7
+    400430: tree_d1 8
+    400432: tree_d1 9
+    400434: tree_d2
+    400436: tree_d2 1
+    400438: tree_d3
+    400440: tree_d3 1
+    400442: tree_d4
+    400444: tree_d4 1
+    400446: tree_d4 2
+    400448: tree_d4 3
+    400450: tree_d5
+    400452: tree_d5 1
+    400454: tree_d5 2
+    400456: tree_e1
+    400458: tree_e1 1
+    400460: tree_e1 2
+    400462: tree_e1 3
+    400464: tree_e2
+    400466: tree_e2 1
+    400468: tree_e2 2
+    400470: tree_e2 3
+    400472: tree_e2 4
+    400474: tree_e2 5
+    400476: tree_e2 6
+    400478: tree_e2 7
+    400480: tree_e2 8
+    400482: tree_e3
+    400484: tree_e3 1
+    400486: tree_e3 2
+    400488: tree_e4
+    400490: tree_e4 1
+    400492: tree_e5
+    400494: tree_e5 1
+    400496: tree_e6
+    400498: tree_e6 1
+    400500: tree_e7
+    400502: tree_e7 1
+    400504: tree_e7 2
+    400506: tree_e7 3
+    400508: tree_e8
+    400510: tree_e8 1
+    400512: tree_e8 2
+    400514: tree_e9
+    400516: tree_e9 1
+    400518: tree_e9 2
+    400520: tree_e9 3
+    400522: tree_f1
+    400524: tree_f10
+    400526: tree_f10 1
+    400528: tree_f10 2
+    400530: tree_f10 3
+    400532: tree_f10 4
+    400534: tree_f2
+    400536: tree_f3
+    400538: tree_f4
+    400540: tree_f5
+    400542: tree_f6
+    400544: tree_f6 1
+    400546: tree_f6 10
+    400548: tree_f6 11
+    400550: tree_f6 12
+    400552: tree_f6 13
+    400554: tree_f6 14
+    400556: tree_f6 15
+    400558: tree_f6 16
+    400560: tree_f6 2
+    400562: tree_f6 3
+    400564: tree_f6 4
+    400566: tree_f6 5
+    400568: tree_f6 6
+    400570: tree_f6 7
+    400572: tree_f6 8
+    400574: tree_f6 9
+    400576: tree_f7
+    400578: tree_f7 1
+    400580: tree_f7 2
+    400582: tree_f8
+    400584: tree_f8 1
+    400586: tree_f8 2
+    400588: tree_f8 3
+    400590: tree_f8 4
+    400592: tree_f8 5
+    400594: tree_f8 6
+    400596: tree_f8 7
+    400598: tree_f9
+    400600: tree_f9 1
+    400602: tree_f9 2
+    400604: tree_group
+    400606: tree_group10
+    400608: tree_group11
+    400610: tree_group12
+    400612: tree_group13
+    400614: tree_group14
+    400616: tree_group15
+    400618: tree_group16
+    400620: tree_group17
+    400622: tree_group18
+    400624: tree_group19
+    400626: tree_group2
+    400628: tree_group20
+    400630: tree_group21
+    400632: tree_group22
+    400634: tree_group23
+    400636: tree_group24
+    400638: tree_group25
+    400640: tree_group26
+    400642: tree_group27
+    400644: tree_group28
+    400646: tree_group29
+    400648: tree_group3
+    400650: tree_group30
+    400652: tree_group31
+    400654: tree_group4
+    400656: tree_group6
+    400658: tree_group7
+    400660: tree_group8
+    400662: tree_group9
+    400664: wizard_tower1
+    2100000: grass
+    2100002: stone_highlight
+    2100004: stone_base
+    2100006: white
+    2100008: stone_shadow
+    2100010: treebark
+    2100012: forest_green
+    2100014: treehighlight
+    2300000: mountainpeak_a1
+    2300002: mountainpeak_a2
+    2300004: mountainpeak_a3
+    2300006: mountainpeak_b1
+    2300008: mountainpeak_b1 1
+    2300010: mountainpeak_b1 2
+    2300012: mountainpeak_b1 3
+    2300014: mountainpeak_b1 4
+    2300016: mountainpeak_b1 5
+    2300018: mountainpeak_b1 6
+    2300020: mountainpeak_b2
+    2300022: mountainpeak_b3
+    2300024: mountainpeak_b3 1
+    2300026: mountainpeak_b3 2
+    2300028: mountainpeak_b3 3
+    2300030: mountainpeak_b3 4
+    2300032: mountainpeak_b3 5
+    2300034: mountainpeak_b3 6
+    2300036: mountainpeak_c1
+    2300038: mountainpeak_c1 1
+    2300040: mountainpeak_c1 2
+    2300042: mountainpeak_c1 3
+    2300044: mountainpeak_c1 4
+    2300046: mountainpeak_c1 5
+    2300048: mountainpeak_c1 6
+    2300050: mountainpeak_c10
+    2300052: mountainpeak_c10 1
+    2300054: mountainpeak_c10 2
+    2300056: mountainpeak_c10 3
+    2300058: mountainpeak_c11
+    2300060: mountainpeak_c11 1
+    2300062: mountainpeak_c11 2
+    2300064: mountainpeak_c11 3
+    2300066: mountainpeak_c2
+    2300068: mountainpeak_c3
+    2300070: mountainpeak_c3 1
+    2300072: mountainpeak_c3 2
+    2300074: mountainpeak_c3 3
+    2300076: mountainpeak_c3 4
+    2300078: mountainpeak_c3 5
+    2300080: mountainpeak_c3 6
+    2300082: mountainpeak_c4
+    2300084: mountainpeak_c4 1
+    2300086: mountainpeak_c4 2
+    2300088: mountainpeak_c4 3
+    2300090: mountainpeak_c4 4
+    2300092: mountainpeak_c4 5
+    2300094: mountainpeak_c4 6
+    2300096: mountainpeak_c5
+    2300098: mountainpeak_c5 1
+    2300100: mountainpeak_c5 2
+    2300102: mountainpeak_c5 3
+    2300104: mountainpeak_c5 4
+    2300106: mountainpeak_c5 5
+    2300108: mountainpeak_c5 6
+    2300110: mountainpeak_c6
+    2300112: mountainpeak_c6 1
+    2300114: mountainpeak_c6 2
+    2300116: mountainpeak_c6 3
+    2300118: mountainpeak_c6 4
+    2300120: mountainpeak_c6 5
+    2300122: mountainpeak_c7
+    2300124: mountainpeak_c7 1
+    2300126: mountainpeak_c7 2
+    2300128: mountainpeak_c7 3
+    2300130: mountainpeak_c7 4
+    2300132: mountainpeak_c7 5
+    2300134: mountainpeak_c8
+    2300136: mountainpeak_c9
+    2300138: mountainpeak_c9 1
+    2300140: mountainpeak_c9 2
+    2300142: mountainpeak_c9 3
+    2300144: planet
+    2300146: stone_a1
+    2300148: stone_a2
+    2300150: stone_a2 1
+    2300152: stone_a2 2
+    2300154: stone_a2 3
+    2300156: stone_a2 4
+    2300158: stone_a2 5
+    2300160: stone_a3
+    2300162: stone_a3 1
+    2300164: stone_a3 2
+    2300166: stone_a3 3
+    2300168: stone_b1
+    2300170: stone_b10
+    2300172: stone_b2
+    2300174: stone_b2 1
+    2300176: stone_b2 10
+    2300178: stone_b2 11
+    2300180: stone_b2 12
+    2300182: stone_b2 13
+    2300184: stone_b2 14
+    2300186: stone_b2 15
+    2300188: stone_b2 16
+    2300190: stone_b2 2
+    2300192: stone_b2 3
+    2300194: stone_b2 4
+    2300196: stone_b2 5
+    2300198: stone_b2 6
+    2300200: stone_b2 7
+    2300202: stone_b2 8
+    2300204: stone_b2 9
+    2300206: stone_b3
+    2300208: stone_b3 1
+    2300210: stone_b3 2
+    2300212: stone_b4
+    2300214: stone_b4 1
+    2300216: stone_b4 2
+    2300218: stone_b4 3
+    2300220: stone_b4 4
+    2300222: stone_b4 5
+    2300224: stone_b5
+    2300226: stone_b5 1
+    2300228: stone_b5 2
+    2300230: stone_b5 3
+    2300232: stone_b5 4
+    2300234: stone_b5 5
+    2300236: stone_b6
+    2300238: stone_b6 1
+    2300240: stone_b6 2
+    2300242: stone_b6 3
+    2300244: stone_b6 4
+    2300246: stone_b7
+    2300248: stone_b7 1
+    2300250: stone_b7 2
+    2300252: stone_b7 3
+    2300254: stone_b8
+    2300256: stone_b8 1
+    2300258: stone_b8 2
+    2300260: stone_b8 3
+    2300262: stone_b9
+    2300264: stone_b9 1
+    2300266: stone_b9 2
+    2300268: stone_b9 3
+    2300270: stone_c1
+    2300272: stone_c2
+    2300274: stone_c3
+    2300276: stone_c4
+    2300278: stone_c5
+    2300280: stone_c6
+    2300282: stone_c6 1
+    2300284: stone_c6 2
+    2300286: stone_c6 3
+    2300288: stone_c6 4
+    2300290: stone_c6 5
+    2300292: stone_c7
+    2300294: stone_c8
+    2300296: stone_d1
+    2300298: stone_d2
+    2300300: stone_d3
+    2300302: stone_e1
+    2300304: stone_e2
+    2300306: stone_e3
+    2300308: stone_f1
+    2300310: stone_f2
+    2300312: stone_f3
+    2300314: tree_a1
+    2300316: tree_a2
+    2300318: tree_a3
+    2300320: tree_a3 1
+    2300322: tree_a3 2
+    2300324: tree_a3 3
+    2300326: tree_a3 4
+    2300328: tree_a4
+    2300330: tree_a4 1
+    2300332: tree_a4 2
+    2300334: tree_a4 3
+    2300336: tree_a4 4
+    2300338: tree_a5
+    2300340: tree_a6
+    2300342: tree_b1
+    2300344: tree_b2
+    2300346: tree_b3
+    2300348: tree_b3 1
+    2300350: tree_b4
+    2300352: tree_b4 1
+    2300354: tree_b5
+    2300356: tree_c1
+    2300358: tree_c2
+    2300360: tree_c3
+    2300362: tree_d1
+    2300364: tree_d1 1
+    2300366: tree_d1 10
+    2300368: tree_d1 11
+    2300370: tree_d1 12
+    2300372: tree_d1 13
+    2300374: tree_d1 14
+    2300376: tree_d1 15
+    2300378: tree_d1 16
+    2300380: tree_d1 2
+    2300382: tree_d1 3
+    2300384: tree_d1 4
+    2300386: tree_d1 5
+    2300388: tree_d1 6
+    2300390: tree_d1 7
+    2300392: tree_d1 8
+    2300394: tree_d1 9
+    2300396: tree_d2
+    2300398: tree_d2 1
+    2300400: tree_d3
+    2300402: tree_d3 1
+    2300404: tree_d4
+    2300406: tree_d4 1
+    2300408: tree_d4 2
+    2300410: tree_d4 3
+    2300412: tree_d5
+    2300414: tree_d5 1
+    2300416: tree_d5 2
+    2300418: tree_e1
+    2300420: tree_e1 1
+    2300422: tree_e1 2
+    2300424: tree_e1 3
+    2300426: tree_e2
+    2300428: tree_e2 1
+    2300430: tree_e2 2
+    2300432: tree_e2 3
+    2300434: tree_e2 4
+    2300436: tree_e2 5
+    2300438: tree_e2 6
+    2300440: tree_e2 7
+    2300442: tree_e2 8
+    2300444: tree_e3
+    2300446: tree_e3 1
+    2300448: tree_e3 2
+    2300450: tree_e4
+    2300452: tree_e4 1
+    2300454: tree_e5
+    2300456: tree_e5 1
+    2300458: tree_e6
+    2300460: tree_e6 1
+    2300462: tree_e7
+    2300464: tree_e7 1
+    2300466: tree_e7 2
+    2300468: tree_e7 3
+    2300470: tree_e8
+    2300472: tree_e8 1
+    2300474: tree_e8 2
+    2300476: tree_e9
+    2300478: tree_e9 1
+    2300480: tree_e9 2
+    2300482: tree_e9 3
+    2300484: tree_f1
+    2300486: tree_f10
+    2300488: tree_f10 1
+    2300490: tree_f10 2
+    2300492: tree_f10 3
+    2300494: tree_f10 4
+    2300496: tree_f2
+    2300498: tree_f3
+    2300500: tree_f4
+    2300502: tree_f5
+    2300504: tree_f6
+    2300506: tree_f6 1
+    2300508: tree_f6 10
+    2300510: tree_f6 11
+    2300512: tree_f6 12
+    2300514: tree_f6 13
+    2300516: tree_f6 14
+    2300518: tree_f6 15
+    2300520: tree_f6 16
+    2300522: tree_f6 2
+    2300524: tree_f6 3
+    2300526: tree_f6 4
+    2300528: tree_f6 5
+    2300530: tree_f6 6
+    2300532: tree_f6 7
+    2300534: tree_f6 8
+    2300536: tree_f6 9
+    2300538: tree_f7
+    2300540: tree_f7 1
+    2300542: tree_f7 2
+    2300544: tree_f8
+    2300546: tree_f8 1
+    2300548: tree_f8 2
+    2300550: tree_f8 3
+    2300552: tree_f8 4
+    2300554: tree_f8 5
+    2300556: tree_f8 6
+    2300558: tree_f8 7
+    2300560: tree_f9
+    2300562: tree_f9 1
+    2300564: tree_f9 2
+    2300566: wizard_tower1
+    3300000: mountainpeak_a1
+    3300002: mountainpeak_a2
+    3300004: mountainpeak_a3
+    3300006: mountainpeak_b1
+    3300008: mountainpeak_b1 1
+    3300010: mountainpeak_b1 2
+    3300012: mountainpeak_b1 3
+    3300014: mountainpeak_b1 4
+    3300016: mountainpeak_b1 5
+    3300018: mountainpeak_b1 6
+    3300020: mountainpeak_b2
+    3300022: mountainpeak_b3
+    3300024: mountainpeak_b3 1
+    3300026: mountainpeak_b3 2
+    3300028: mountainpeak_b3 3
+    3300030: mountainpeak_b3 4
+    3300032: mountainpeak_b3 5
+    3300034: mountainpeak_b3 6
+    3300036: mountainpeak_c1
+    3300038: mountainpeak_c1 1
+    3300040: mountainpeak_c1 2
+    3300042: mountainpeak_c1 3
+    3300044: mountainpeak_c1 4
+    3300046: mountainpeak_c1 5
+    3300048: mountainpeak_c1 6
+    3300050: mountainpeak_c10
+    3300052: mountainpeak_c10 1
+    3300054: mountainpeak_c10 2
+    3300056: mountainpeak_c10 3
+    3300058: mountainpeak_c11
+    3300060: mountainpeak_c11 1
+    3300062: mountainpeak_c11 2
+    3300064: mountainpeak_c11 3
+    3300066: mountainpeak_c2
+    3300068: mountainpeak_c3
+    3300070: mountainpeak_c3 1
+    3300072: mountainpeak_c3 2
+    3300074: mountainpeak_c3 3
+    3300076: mountainpeak_c3 4
+    3300078: mountainpeak_c3 5
+    3300080: mountainpeak_c3 6
+    3300082: mountainpeak_c4
+    3300084: mountainpeak_c4 1
+    3300086: mountainpeak_c4 2
+    3300088: mountainpeak_c4 3
+    3300090: mountainpeak_c4 4
+    3300092: mountainpeak_c4 5
+    3300094: mountainpeak_c4 6
+    3300096: mountainpeak_c5
+    3300098: mountainpeak_c5 1
+    3300100: mountainpeak_c5 2
+    3300102: mountainpeak_c5 3
+    3300104: mountainpeak_c5 4
+    3300106: mountainpeak_c5 5
+    3300108: mountainpeak_c5 6
+    3300110: mountainpeak_c6
+    3300112: mountainpeak_c6 1
+    3300114: mountainpeak_c6 2
+    3300116: mountainpeak_c6 3
+    3300118: mountainpeak_c6 4
+    3300120: mountainpeak_c6 5
+    3300122: mountainpeak_c7
+    3300124: mountainpeak_c7 1
+    3300126: mountainpeak_c7 2
+    3300128: mountainpeak_c7 3
+    3300130: mountainpeak_c7 4
+    3300132: mountainpeak_c7 5
+    3300134: mountainpeak_c8
+    3300136: mountainpeak_c9
+    3300138: mountainpeak_c9 1
+    3300140: mountainpeak_c9 2
+    3300142: mountainpeak_c9 3
+    3300144: planet
+    3300146: stone_a1
+    3300148: stone_a2
+    3300150: stone_a2 1
+    3300152: stone_a2 2
+    3300154: stone_a2 3
+    3300156: stone_a2 4
+    3300158: stone_a2 5
+    3300160: stone_a3
+    3300162: stone_a3 1
+    3300164: stone_a3 2
+    3300166: stone_a3 3
+    3300168: stone_b1
+    3300170: stone_b10
+    3300172: stone_b2
+    3300174: stone_b2 1
+    3300176: stone_b2 10
+    3300178: stone_b2 11
+    3300180: stone_b2 12
+    3300182: stone_b2 13
+    3300184: stone_b2 14
+    3300186: stone_b2 15
+    3300188: stone_b2 16
+    3300190: stone_b2 2
+    3300192: stone_b2 3
+    3300194: stone_b2 4
+    3300196: stone_b2 5
+    3300198: stone_b2 6
+    3300200: stone_b2 7
+    3300202: stone_b2 8
+    3300204: stone_b2 9
+    3300206: stone_b3
+    3300208: stone_b3 1
+    3300210: stone_b3 2
+    3300212: stone_b4
+    3300214: stone_b4 1
+    3300216: stone_b4 2
+    3300218: stone_b4 3
+    3300220: stone_b4 4
+    3300222: stone_b4 5
+    3300224: stone_b5
+    3300226: stone_b5 1
+    3300228: stone_b5 2
+    3300230: stone_b5 3
+    3300232: stone_b5 4
+    3300234: stone_b5 5
+    3300236: stone_b6
+    3300238: stone_b6 1
+    3300240: stone_b6 2
+    3300242: stone_b6 3
+    3300244: stone_b6 4
+    3300246: stone_b7
+    3300248: stone_b7 1
+    3300250: stone_b7 2
+    3300252: stone_b7 3
+    3300254: stone_b8
+    3300256: stone_b8 1
+    3300258: stone_b8 2
+    3300260: stone_b8 3
+    3300262: stone_b9
+    3300264: stone_b9 1
+    3300266: stone_b9 2
+    3300268: stone_b9 3
+    3300270: stone_c1
+    3300272: stone_c2
+    3300274: stone_c3
+    3300276: stone_c4
+    3300278: stone_c5
+    3300280: stone_c6
+    3300282: stone_c6 1
+    3300284: stone_c6 2
+    3300286: stone_c6 3
+    3300288: stone_c6 4
+    3300290: stone_c6 5
+    3300292: stone_c7
+    3300294: stone_c8
+    3300296: stone_d1
+    3300298: stone_d2
+    3300300: stone_d3
+    3300302: stone_e1
+    3300304: stone_e2
+    3300306: stone_e3
+    3300308: stone_f1
+    3300310: stone_f2
+    3300312: stone_f3
+    3300314: tree_a1
+    3300316: tree_a2
+    3300318: tree_a3
+    3300320: tree_a3 1
+    3300322: tree_a3 2
+    3300324: tree_a3 3
+    3300326: tree_a3 4
+    3300328: tree_a4
+    3300330: tree_a4 1
+    3300332: tree_a4 2
+    3300334: tree_a4 3
+    3300336: tree_a4 4
+    3300338: tree_a5
+    3300340: tree_a6
+    3300342: tree_b1
+    3300344: tree_b2
+    3300346: tree_b3
+    3300348: tree_b3 1
+    3300350: tree_b4
+    3300352: tree_b4 1
+    3300354: tree_b5
+    3300356: tree_c1
+    3300358: tree_c2
+    3300360: tree_c3
+    3300362: tree_d1
+    3300364: tree_d1 1
+    3300366: tree_d1 10
+    3300368: tree_d1 11
+    3300370: tree_d1 12
+    3300372: tree_d1 13
+    3300374: tree_d1 14
+    3300376: tree_d1 15
+    3300378: tree_d1 16
+    3300380: tree_d1 2
+    3300382: tree_d1 3
+    3300384: tree_d1 4
+    3300386: tree_d1 5
+    3300388: tree_d1 6
+    3300390: tree_d1 7
+    3300392: tree_d1 8
+    3300394: tree_d1 9
+    3300396: tree_d2
+    3300398: tree_d2 1
+    3300400: tree_d3
+    3300402: tree_d3 1
+    3300404: tree_d4
+    3300406: tree_d4 1
+    3300408: tree_d4 2
+    3300410: tree_d4 3
+    3300412: tree_d5
+    3300414: tree_d5 1
+    3300416: tree_d5 2
+    3300418: tree_e1
+    3300420: tree_e1 1
+    3300422: tree_e1 2
+    3300424: tree_e1 3
+    3300426: tree_e2
+    3300428: tree_e2 1
+    3300430: tree_e2 2
+    3300432: tree_e2 3
+    3300434: tree_e2 4
+    3300436: tree_e2 5
+    3300438: tree_e2 6
+    3300440: tree_e2 7
+    3300442: tree_e2 8
+    3300444: tree_e3
+    3300446: tree_e3 1
+    3300448: tree_e3 2
+    3300450: tree_e4
+    3300452: tree_e4 1
+    3300454: tree_e5
+    3300456: tree_e5 1
+    3300458: tree_e6
+    3300460: tree_e6 1
+    3300462: tree_e7
+    3300464: tree_e7 1
+    3300466: tree_e7 2
+    3300468: tree_e7 3
+    3300470: tree_e8
+    3300472: tree_e8 1
+    3300474: tree_e8 2
+    3300476: tree_e9
+    3300478: tree_e9 1
+    3300480: tree_e9 2
+    3300482: tree_e9 3
+    3300484: tree_f1
+    3300486: tree_f10
+    3300488: tree_f10 1
+    3300490: tree_f10 2
+    3300492: tree_f10 3
+    3300494: tree_f10 4
+    3300496: tree_f2
+    3300498: tree_f3
+    3300500: tree_f4
+    3300502: tree_f5
+    3300504: tree_f6
+    3300506: tree_f6 1
+    3300508: tree_f6 10
+    3300510: tree_f6 11
+    3300512: tree_f6 12
+    3300514: tree_f6 13
+    3300516: tree_f6 14
+    3300518: tree_f6 15
+    3300520: tree_f6 16
+    3300522: tree_f6 2
+    3300524: tree_f6 3
+    3300526: tree_f6 4
+    3300528: tree_f6 5
+    3300530: tree_f6 6
+    3300532: tree_f6 7
+    3300534: tree_f6 8
+    3300536: tree_f6 9
+    3300538: tree_f7
+    3300540: tree_f7 1
+    3300542: tree_f7 2
+    3300544: tree_f8
+    3300546: tree_f8 1
+    3300548: tree_f8 2
+    3300550: tree_f8 3
+    3300552: tree_f8 4
+    3300554: tree_f8 5
+    3300556: tree_f8 6
+    3300558: tree_f8 7
+    3300560: tree_f9
+    3300562: tree_f9 1
+    3300564: tree_f9 2
+    3300566: wizard_tower1
+    4300000: planet
+    4300002: mountainpeak_c5
+    4300004: mountainpeak_c4
+    4300006: mountainpeak_c3
+    4300008: mountainpeak_c2
+    4300010: mountainpeak_c1
+    4300012: wizard_tower1
+    4300014: mountainpeak_b3
+    4300016: mountainpeak_b2
+    4300018: mountainpeak_a3
+    4300020: mountainpeak_a2
+    4300022: mountainpeak_a1
+    4300024: mountainpeak_b1
+    4300026: stone_b7
+    4300028: mountainpeak_c9
+    4300030: stone_b8
+    4300032: mountainpeak_c10
+    4300034: mountainpeak_c11
+    4300036: stone_b9
+    4300038: tree_e1
+    4300040: tree_e9
+    4300042: tree_b2
+    4300044: stone_e2
+    4300046: tree_c2
+    4300048: tree_f2
+    4300050: stone_c2
+    4300052: stone_c3
+    4300054: stone_f2
+    4300056: tree_f3
+    4300058: tree_f4
+    4300060: tree_f5
+    4300062: stone_d2
+    4300064: stone_b2
+    4300066: tree_b3
+    4300068: tree_e2
+    4300070: tree_e4
+    4300072: tree_e5
+    4300074: tree_e6
+    4300076: tree_d1
+    4300078: tree_d2
+    4300080: tree_f6
+    4300082: tree_d3
+    4300084: stone_b2
+    4300086: tree_f6
+    4300088: tree_f8
+    4300090: tree_d1
+    4300092: stone_b2
+    4300094: tree_e2
+    4300096: tree_d1
+    4300098: tree_f6
+    4300100: tree_e7
+    4300102: tree_d4
+    4300104: stone_b2
+    4300106: tree_e2
+    4300108: tree_d1
+    4300110: tree_f6
+    4300112: tree_e7
+    4300114: tree_d4
+    4300116: stone_b2
+    4300118: tree_e2
+    4300120: tree_d1
+    4300122: tree_f6
+    4300124: tree_e7
+    4300126: tree_d4
+    4300128: stone_b2
+    4300130: tree_e2
+    4300132: tree_d1
+    4300134: tree_f6
+    4300136: tree_e7
+    4300138: tree_d4
+    4300140: stone_b2
+    4300142: tree_f6
+    4300144: tree_f8
+    4300146: tree_d1
+    4300148: stone_b2
+    4300150: tree_f6
+    4300152: tree_f8
+    4300154: tree_d1
+    4300156: stone_b2
+    4300158: tree_b3
+    4300160: tree_e2
+    4300162: tree_e4
+    4300164: tree_e5
+    4300166: tree_e6
+    4300168: tree_d1
+    4300170: tree_d2
+    4300172: tree_f6
+    4300174: tree_d3
+    4300176: mountainpeak_c5
+    4300178: mountainpeak_b1
+    4300180: mountainpeak_c4
+    4300182: mountainpeak_c3
+    4300184: mountainpeak_b3
+    4300186: stone_f3
+    4300188: stone_e3
+    4300190: stone_c4
+    4300192: stone_c5
+    4300194: stone_c6
+    4300196: stone_b4
+    4300198: stone_b5
+    4300200: stone_a2
+    4300202: stone_c7
+    4300204: stone_c8
+    4300206: mountainpeak_c1
+    4300208: mountainpeak_c6
+    4300210: mountainpeak_c7
+    4300212: mountainpeak_c8
+    4300214: tree_e1
+    4300216: tree_e9
+    4300218: mountainpeak_c5
+    4300220: mountainpeak_b1
+    4300222: mountainpeak_c4
+    4300224: mountainpeak_c3
+    4300226: mountainpeak_b3
+    4300228: stone_c6
+    4300230: stone_b4
+    4300232: stone_b5
+    4300234: stone_b6
+    4300236: stone_a2
+    4300238: mountainpeak_c1
+    4300240: mountainpeak_c6
+    4300242: mountainpeak_c7
+    4300244: stone_b7
+    4300246: mountainpeak_c9
+    4300248: stone_b8
+    4300250: mountainpeak_c10
+    4300252: mountainpeak_c11
+    4300254: stone_b9
+    4300256: mountainpeak_c5
+    4300258: mountainpeak_b1
+    4300260: mountainpeak_c4
+    4300262: mountainpeak_c3
+    4300264: mountainpeak_b3
+    4300266: stone_c6
+    4300268: stone_b4
+    4300270: stone_b5
+    4300272: stone_b6
+    4300274: stone_a2
+    4300276: mountainpeak_c1
+    4300278: mountainpeak_c6
+    4300280: mountainpeak_c7
+    4300282: mountainpeak_c5
+    4300284: mountainpeak_b1
+    4300286: mountainpeak_c4
+    4300288: mountainpeak_c3
+    4300290: mountainpeak_b3
+    4300292: stone_c6
+    4300294: stone_b4
+    4300296: stone_b5
+    4300298: stone_b6
+    4300300: stone_a2
+    4300302: mountainpeak_c1
+    4300304: mountainpeak_c6
+    4300306: mountainpeak_c7
+    4300308: mountainpeak_c5
+    4300310: mountainpeak_b1
+    4300312: mountainpeak_c4
+    4300314: mountainpeak_c3
+    4300316: mountainpeak_b3
+    4300318: stone_c6
+    4300320: stone_b4
+    4300322: stone_b5
+    4300324: stone_b6
+    4300326: stone_a2
+    4300328: mountainpeak_c1
+    4300330: mountainpeak_c6
+    4300332: mountainpeak_c7
+    4300334: mountainpeak_c5
+    4300336: mountainpeak_b1
+    4300338: mountainpeak_c4
+    4300340: mountainpeak_c3
+    4300342: mountainpeak_b3
+    4300344: stone_c6
+    4300346: stone_b4
+    4300348: stone_b5
+    4300350: stone_b6
+    4300352: stone_a2
+    4300354: mountainpeak_c1
+    4300356: mountainpeak_c6
+    4300358: mountainpeak_c7
+    4300360: stone_b2
+    4300362: tree_f6
+    4300364: tree_f8
+    4300366: tree_d1
+    4300368: stone_b2
+    4300370: tree_f6
+    4300372: tree_f8
+    4300374: tree_d1
+    4300376: stone_b2
+    4300378: tree_f6
+    4300380: tree_f8
+    4300382: tree_d1
+    4300384: stone_b2
+    4300386: tree_f6
+    4300388: tree_f8
+    4300390: tree_d1
+    4300392: stone_b2
+    4300394: tree_f6
+    4300396: tree_f8
+    4300398: tree_d1
+    4300400: tree_f10
+    4300402: tree_a3
+    4300404: tree_a4
+    4300406: tree_f10
+    4300408: tree_a3
+    4300410: tree_a4
+    4300412: tree_f10
+    4300414: tree_a3
+    4300416: tree_a4
+    4300418: tree_f10
+    4300420: tree_a3
+    4300422: tree_a4
+    4300424: tree_f10
+    4300426: tree_a3
+    4300428: tree_a4
+    4300430: stone_a3
+    4300432: stone_a3
+    4300434: stone_a3
+    4300436: tree_e1
+    4300438: tree_e9
+    4300440: stone_f1
+    4300442: stone_d1
+    4300444: stone_b1
+    4300446: stone_b10
+    4300448: stone_a1
+    4300450: tree_b1
+    4300452: stone_c1
+    4300454: stone_e1
+    4300456: tree_a5
+    4300458: tree_a1
+    4300460: tree_c3
+    4300462: tree_c1
+    4300464: tree_f1
+    4300466: tree_a2
+    4300468: tree_a6
+    4300470: stone_d3
+    4300472: stone_b7
+    4300474: mountainpeak_c9
+    4300476: stone_b8
+    4300478: mountainpeak_c10
+    4300480: mountainpeak_c11
+    4300482: stone_b9
+    4300484: stone_b7
+    4300486: mountainpeak_c9
+    4300488: stone_b8
+    4300490: mountainpeak_c10
+    4300492: mountainpeak_c11
+    4300494: stone_b9
+    4300496: stone_a3
+    4300498: tree_b4
+    4300500: tree_e9
+    4300502: tree_e1
+    4300504: tree_b4
+    4300506: tree_b5
+    4300508: tree_e2
+    4300510: tree_e3
+    4300512: tree_d1
+    4300514: stone_b2
+    4300516: stone_b3
+    4300518: tree_f6
+    4300520: tree_f7
+    4300522: tree_e8
+    4300524: tree_f9
+    4300526: tree_d5
+    4300528: tree_e2
+    4300530: tree_e3
+    4300532: tree_d1
+    4300534: stone_b2
+    4300536: stone_b3
+    4300538: tree_f6
+    4300540: tree_f7
+    4300542: tree_e8
+    4300544: tree_f9
+    4300546: tree_d5
+    4300548: tree_e2
+    4300550: tree_e3
+    4300552: tree_d1
+    4300554: stone_b2
+    4300556: stone_b3
+    4300558: tree_f6
+    4300560: tree_f7
+    4300562: tree_e8
+    4300564: tree_f9
+    4300566: tree_d5
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: forest_green
+    second: {fileID: 2100000, guid: d7293e95a2bc74bdf8191b0e84c0ec6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: a7376f56eea3e492aa12c85da02e7132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_base
+    second: {fileID: 2100000, guid: c1644843563174cc892d39793276452a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_highlight
+    second: {fileID: 2100000, guid: f50872be3f16f4c1791302d17b0b3a9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_shadow
+    second: {fileID: 2100000, guid: aba68cd16b47b4f39a8ae6c192288082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treebark
+    second: {fileID: 2100000, guid: 1298a996628384f7498850ed8d4abd61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treehighlight
+    second: {fileID: 2100000, guid: 4209d33926f414ec6b588656794cc789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: a4009e4a36e194bf29b97eec9e362c4a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
