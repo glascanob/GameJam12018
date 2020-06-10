@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject planetContainer;
     public AudioClip[] soundFX;
     public GameObject deathParticle;
+    bool isDeath = false;
 
     Animator anim;
     Rigidbody rb;
@@ -69,7 +70,12 @@ public class PlayerController : MonoBehaviour {
 
     public void KillPlayer()
     {
-
+        if (!isDeath)
+        {
+            isDeath = true;
+            anim.SetTrigger("Death");
+            StartCoroutine("WaitForAnimAndDie");
+        }
     }
 
 
@@ -79,10 +85,10 @@ public class PlayerController : MonoBehaviour {
         CurMana = Mathf.Clamp(CurMana + (Time.deltaTime * 2.0f), 0.0f, MaxMana);
 
         if (HealthBar != null)
-            HealthBar.sizeDelta = new Vector2(((CurHealth / MaxHealth) * 180.0f), 20.0f);
+            HealthBar.sizeDelta = new Vector2(((CurHealth / MaxHealth) * 292f), 19f);
 
         if (ManaBar != null)
-            ManaBar.sizeDelta = new Vector2(((CurMana / MaxMana) * 180.0f), 20.0f);
+            ManaBar.sizeDelta = new Vector2(((CurMana / MaxMana) * 252f), 10.5f);
 
 
         if (Mathf.Approximately(CurHealth, 0.0f))
@@ -164,5 +170,12 @@ public class PlayerController : MonoBehaviour {
         canCast = true;
         yield return new WaitForSeconds(SwordCD);
         canSlash = true;
+    }
+    IEnumerator WaitForAnimAndDie()
+    {
+        yield return new WaitForSeconds(0.5f);
+        yield return new WaitUntil(() => anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.9f);
+        FindObjectOfType<SceneLoader>().LoadLevel("Start");
+        Destroy(gameObject);
     }
 }

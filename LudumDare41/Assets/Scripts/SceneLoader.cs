@@ -7,15 +7,15 @@ public class SceneLoader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        DontDestroyOnLoad(gameObject);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-    public void LoadLevel()
+    public void LoadLevel(string level)
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene(level);
     }
 }

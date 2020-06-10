@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 136848157681176248}
   - component: {fileID: 54582543059107294}
   - component: {fileID: 114680444854780434}
+  - component: {fileID: 136861276836745534}
   m_Layer: 10
   m_Name: Catfish
   m_TagString: Enemy
@@ -573,6 +574,19 @@ CapsuleCollider:
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136861276836745534
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1184150118468044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 2.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137165631680296202
